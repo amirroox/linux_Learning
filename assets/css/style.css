@@ -1,12 +1,18 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /* Header Style */
+header {
+    position: sticky;
+    top: 0;
+}
+#head ~ #side-menu{
+}
 #side-menu {
-    height: 100vh;
+    height: 100%;
     width: 20vw;
     z-index: 9999999;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     transform: translateX(20vw);
@@ -19,6 +25,10 @@ body {
     #side-menu {
         width: 50vw;
         transform: translateX(50vw);
+    }
+    #head ~ #side-menu{
+        scale: .9;
+        top: 8%;
     }
 }
 #close-side-menu-btn:hover , #open-side-menu-btn:hover {
