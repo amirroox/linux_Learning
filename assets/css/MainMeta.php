@@ -7,5 +7,6 @@
 <!--<meta http-equiv="pragma" content="no-cache">-->
 <!--<meta http-equiv="expires" content="0">-->
 <link href="<?= MAIN_SERVER . 'assets/img/icon.svg'?>" rel="icon" type="image/svg" sizes="32x32">
+<link href="<?= MAIN_SERVER . 'assets/css/SeedStyle.css'?>" rel="stylesheet">
 <!-- Tailwindcss -->
 <link href="<?= MAIN_SERVER . 'dist/output.css'?>" rel="stylesheet">
