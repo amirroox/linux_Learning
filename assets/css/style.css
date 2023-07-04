@@ -17,6 +17,7 @@ header {
     bottom: 0;
     transform: translateX(20vw);
     transition: all 1s;
+    overflow: auto;
 }
 .side-menu-enable {
     transform: unset !important;
@@ -43,4 +44,7 @@ header {
     display: none;
     top: 0;
     bottom: 0;
+}
+li.openSubMenu ul.subMenuD{
+    display: none;
 }
