@@ -1,4 +1,4 @@
-<footer class="p-4 bg-gray-700 text-center gap-x-10 space-y-10 sm:space-y-0 columns-1 md:columns-3">
+<footer class="p-4 SEC-COLOR text-center gap-x-10 space-y-10 sm:space-y-0 columns-1 md:columns-3">
     <div>
         <p>
             اگر این آموزش به شما کمک کرده و توان مالی دارید خوشحال میشم مارو حمایت کنید تا بروز باشیم.

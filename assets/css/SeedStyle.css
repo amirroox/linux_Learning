@@ -59,6 +59,24 @@
     padding: 0;
     margin: 0;
 }
+/* Root Color (BackGround And Text) */
+.MAIN-COLOR {
+    background-color: rgb(31 41 55 / 1);
+    color: white;
+}
+.SEC-COLOR {
+    background-color: rgb(55 65 81 / 1);
+    color: white;
+}
+.THR-COLOR {
+    background-color: rgb(107 114 128 / 1);
+    color: black;
+}
+.CONTENT_BACK_COLOR {
+    background-color: rgb(31 41 55 / 1);
+    color: white;
+}
+/* Root Color (BackGround And Text) */
 
 /* width */
 ::-webkit-scrollbar {

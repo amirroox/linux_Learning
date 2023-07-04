@@ -1,4 +1,4 @@
-<header class="py-4 bg-gray-700">
+<header class="py-4 SEC-COLOR">
     <div class="text-sky-400 flex justify-between items-center" id="head">
         <div id="open-side-menu-btn">
             <img class="mr-4 cursor-pointer inline" src="<?= MAIN_SERVER . 'assets/img/side-menu.svg' ?>"
@@ -9,7 +9,7 @@
         <div class="ml-4 sm:ml-7 text-xl sm:text-2xl"> <a href="<?= MAIN_SERVER ?>"> Linux Learn </a> </div>
     </div>
     <div id="cover-back"></div>
-    <aside id="side-menu" class="bg-gray-500 text-center pb-10">
+    <aside id="side-menu" class="THR-COLOR text-center pb-10">
         <img id="close-side-menu-btn" class="m-3 cursor-pointer inline mb-6" src="<?= MAIN_SERVER . 'assets/img/close-menu.svg' ?>"
              width="45" height="45" alt="Close-Menu" title="Close-Menu">
         <ul class="space-y-4">
@@ -57,6 +57,9 @@
                     <li class="hover:text-sky-400"><a href="javascript:void(0)">دی ان اس</a></li>
                 </ul>
             </li>
+            <hr class="my-3 w-1/2 m-auto border-sky-400">
+            <li class="text-sky-400 text-xl hover:text-red-400 duration-1000" style="-webkit-text-stroke: 1px white;"><a href="<?= MAIN_GITHUB ?>" target="_blank">گیت هاب</a></li>
+            <li class="text-sky-400 text-xl hover:text-red-400 duration-1000" style="-webkit-text-stroke: 1px white;"><a href="https://zarinp.al/roox" target="_blank">حمایت مالی</a></li>
         </ul>
     </aside>
 </header>

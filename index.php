@@ -31,7 +31,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-800 text-white">
+<body class="text-white MAIN-COLOR">
     <!-- Start Header -->
     <?php include MAIN_DIR . "src/Header.php" ?>
     <!-- End Header -->
@@ -39,28 +39,28 @@
     <!-- Start Main -->
     <main class="m-7 text-center space-y-7">
         <div class="text-center grid grid-cols-4 gap-4" id="HeroGrid">
-            <div class="col-span-2 bg-sky-400">
+            <div class="col-span-2">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux1.jpg' ?>" alt="Linux">
             </div>
-            <div class="col-span-2 bg-sky-400">
+            <div class="col-span-2">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux2.jpg' ?>" alt="Linux">
             </div>
-            <div class="bg-sky-400 sm:hidden">
+            <div class="sm:hidden">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux3.jpg' ?>" alt="Linux">
             </div>
-            <div class="col-span-2 bg-sky-400 sm:hidden">
+            <div class="col-span-2 sm:hidden">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux4.jpg' ?>" alt="Kali Linux">
             </div>
-            <div class="bg-sky-400 sm:hidden">
+            <div class="sm:hidden">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux5.webp' ?>" alt="Linux">
             </div>
-            <div class="bg-sky-400">
+            <div>
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux9.jpg' ?>" alt="debian">
             </div>
-            <div class="bg-sky-400">
+            <div>
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux7.webp' ?>" alt="Kali Linux">
             </div>
-            <div class="col-span-2 bg-sky-400">
+            <div class="col-span-2">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux8.jpg' ?>" alt="Arch Linux">
             </div>
         </div>
@@ -68,7 +68,7 @@
         <hr class="my-3 w-1/2 m-auto border-sky-400">
         <h2 class="text-2xl">مفاهیم ابتدایی :</h2>
             <div class="w-full md:w-4/5 Lessons grid grid-cols-1 md:grid-cols-4 gap-y-7 md:gap-x-4 m-auto">
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Getting Started</h3>
@@ -76,7 +76,7 @@
                         <p>اصلا لینوکس چیه؟چه توزیعی رو برای نصب انتخاب کنیم؟</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/command line.png' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Command Line</h3>
@@ -84,7 +84,7 @@
                         <p>اصول و دستورات ابتدایی خط فرمان رو یاد میگیریم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Work On Text</h3>
@@ -92,7 +92,7 @@
                         <p>دستکاری و چیزای جدید در مورد دستورات در لینوکس!</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Text-Fu Pro</h3>
@@ -100,7 +100,7 @@
                         <p>یکمی پیشرفته تر در مورد متن ها و ویرایشگر ها میفهمیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">User Management</h3>
@@ -108,7 +108,7 @@
                         <p>با انواع یوزر ها و مدیریت اونها آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Permissions</h3>
@@ -116,7 +116,7 @@
                         <p>درباره سطوح دسترسی و مجوز ها در لینوکس آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Processes</h3>
@@ -124,7 +124,7 @@
                         <p>با فرایند های در حال اجرا لینوکس آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Packages</h3>
@@ -135,7 +135,7 @@
             </div>
         <h2 class="text-2xl">مفاهیم میانی :</h2>
             <div class="w-full md:w-4/5 Lessons grid grid-cols-1 md:grid-cols-4 gap-4 m-auto">
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Devices</h3>
@@ -143,7 +143,7 @@
                         <p>در مورد تعامل بین دستگاه های لینوکس یاد میگیرم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">The Filesystem</h3>
@@ -151,7 +151,7 @@
                         <p>با انواع مختلف فایل های سیستمی و موارد دیگر آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Boot The System</h3>
@@ -159,7 +159,7 @@
                         <p>با مراحل بوت و آغاز کار لینوکس آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Kernel</h3>
@@ -167,7 +167,7 @@
                         <p>در مورد کرنل و نحوه کار باهاش آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Init</h3>
@@ -175,7 +175,7 @@
                         <p>با سیستم های مختلف init، SysV، Upstart و systemd آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Process Utilization</h3>
@@ -183,7 +183,7 @@
                         <p>نظارت بر منابع و موارد مربوط بهش رو یاد میگیریم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Logging</h3>
@@ -194,7 +194,7 @@
             </div>
         <h2 class="text-2xl">مفاهیم شبکه :</h2>
             <div class="w-full md:w-4/5 Lessons grid grid-cols-1 md:grid-cols-4 gap-4 m-auto">
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Network Sharing</h3>
@@ -202,7 +202,7 @@
                         <p>با موارد مربوط به اشتراک گذاری شبکه در لینوکس آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Network Basics</h3>
@@ -210,7 +210,7 @@
                         <p>با اصول اولیه شبکه آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Subnetting</h3>
@@ -218,7 +218,7 @@
                         <p>با سابنتینگ و ساب نت ماسک آشنا میشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Routing</h3>
@@ -226,7 +226,7 @@
                         <p>در مورد مسیریابی پیکج ها در لینوکس بیشتر آشنا بشیم.</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Network Config</h3>
@@ -234,7 +234,7 @@
                         <p>چجوری در لینوکس شبکه کانفیگ کنیم ؟</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">Troubleshooting</h3>
@@ -242,7 +242,7 @@
                         <p>در مورد عیب یابی در شبکه بیشتر یاد بگیریم!</p>
                     </a>
                 </div>
-                <div class="box bg-gray-700">
+                <div class="box SEC-COLOR">
                     <a href="#">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/start1.gif' ?>" alt="Start">
                         <h3 class="text-xl mb-2">DNS</h3>
