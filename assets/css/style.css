@@ -4,6 +4,7 @@ body {
 /* Header Style */
 header {
     position: sticky;
+    z-index: 999999;
     top: 0;
 }
 #head ~ #side-menu{
