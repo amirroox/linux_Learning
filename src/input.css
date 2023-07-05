@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom */
+@layer base {
+    h1 {
+        @apply text-2xl;
+        @apply my-2;
+    }
+    h2 {
+        @apply text-xl;
+    }
+}
