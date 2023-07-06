@@ -61,15 +61,15 @@
 }
 /* Root Color (BackGround And Text) */
 .MAIN-COLOR {
-    background-color: rgb(31 41 55 / 1);
+    background-color: rgb(0,5,19);
     color: white;
 }
 .SEC-COLOR {
-    background-color: rgb(55 65 81 / 1);
+    background-color: rgb(1,10,27);
     color: white;
 }
 .THR-COLOR {
-    background-color: rgb(107 114 128 / 1);
+    background-color: rgb(8,16,29);
     color: black;
 }
 .CONTENT_BACK_COLOR {

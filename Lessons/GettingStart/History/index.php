@@ -26,7 +26,7 @@ $name_file = basename(__DIR__);
     <div class="md:hidden">
         <h1 class="text-2xl">توضیحات</h1>
     </div>
-    <div class="md:col-span-4 text-justify bg-sky-300 rounded-2xl border-4 border-sky-500 md:max-h-fit text-right py-3 px-5 text-black">
+    <div class="md:col-span-4 text-justify bg-blue-700 rounded-2xl border-4 border-blue-800 md:max-h-fit text-right py-3 px-5 text-white">
         <h1>تاریخچه لینوکس خوشگلمون</h1>
         <p>
             اگه بخوایم الان در مورد تاریخچه لینوکس صحبت کنیم من ینفر محتوا کم میارم(همینجوری هم همیشه محتوا کم دارم!)
