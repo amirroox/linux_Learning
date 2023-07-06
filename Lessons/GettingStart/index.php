@@ -1,2 +1,2 @@
 <?php
-header('Location: ' . 'History/index.php');
+header('Location: ' . 'History');

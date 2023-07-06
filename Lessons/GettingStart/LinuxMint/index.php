@@ -73,6 +73,5 @@ $name_file = basename(__DIR__);
 <script>
     $('#<?=$name_file?>').addClass("bg-red-500");
 </script>
-
 </body>
 </html>

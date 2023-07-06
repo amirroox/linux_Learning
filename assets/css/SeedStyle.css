@@ -97,3 +97,26 @@
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(31 41 55) ;
 }
+
+/* Change Text Selection Color*/
+
+::-moz-selection { /* Code for Firefox */
+    color: blue;
+    background: lightgreen;
+}
+
+::selection {
+    color: blue;
+    background: lightgreen;
+}
+
+/* Disable User Select */
+/*
+* {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ */
