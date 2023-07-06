@@ -15,7 +15,7 @@
         <ul class="space-y-4">
             <li class="text-sky-400 sm:hidden text-xl" style="-webkit-text-stroke: 1px white;"><a href="<?= MAIN_SITE ?>" target="_blank">همه نقشه های راه</a></li>
             <hr class="my-3 w-1/2 m-auto border-sky-400 sm:hidden">
-            <li class="openSubMenu cursor-pointer text-xl text-green-300">
+            <li class="openSubMenu cursor-pointer text-xl text-red-500">
                 مفاهیم ابتدایی
                 <br><br>
                 <ul class="subMenuD space-y-3 text-base text-white">
@@ -30,7 +30,7 @@
                 </ul>
             </li>
             <hr class="my-3 w-1/2 m-auto border-sky-400">
-            <li class="openSubMenu cursor-pointer text-xl text-green-300">
+            <li class="openSubMenu cursor-pointer text-xl text-red-500">
                 مفاهیم میانی
                 <br><br>
                 <ul class="subMenuD space-y-3 text-base text-white">
@@ -44,7 +44,7 @@
                 </ul>
             </li>
             <hr class="my-3 w-1/2 m-auto border-sky-400">
-            <li class="openSubMenu cursor-pointer text-xl text-green-300">
+            <li class="openSubMenu cursor-pointer text-xl text-red-500">
                 مفاهیم شبکه
                 <br><br>
                 <ul class="subMenuD space-y-3 text-base text-white">
