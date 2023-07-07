@@ -423,15 +423,17 @@ video {
 }
 
 h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 700;
 }
 
 *, ::before, ::after {
@@ -851,6 +853,11 @@ h2 {
 /* Custom Base */
 
 /* Custom Project */
+
+.hover\:bg-green-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
+}
 
 .hover\:bg-red-500:hover {
   --tw-bg-opacity: 1;

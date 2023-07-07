@@ -5,11 +5,10 @@
 /* Custom Base */
 @layer base {
     h1 {
-        @apply text-2xl;
-        @apply my-2;
+        @apply text-2xl my-2 font-bold;
     }
     h2 {
-        @apply text-xl;
+        @apply text-xl font-bold;
     }
 }
 /* Custom Project */

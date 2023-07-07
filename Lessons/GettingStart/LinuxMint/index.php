@@ -79,6 +79,9 @@ $name_file = basename(__DIR__);
 <!-- Custom Script -->
 <script>
     $('#<?=$name_file?>').addClass("bg-red-500");
+    $('body,html').animate({
+        scrollTop: $('#end_menu').offset().top
+    }, 800);
 </script>
 </body>
 </html>
