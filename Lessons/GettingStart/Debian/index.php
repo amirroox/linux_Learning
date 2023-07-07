@@ -17,7 +17,7 @@ $name_file = basename(__DIR__);
 <!-- End Header -->
 
 <!-- Start Main -->
-<main class="p-4 text-white text-center grid grid-cols-1 md:grid-cols-5 gap-4">
+<main class="main_content">
 
     <!-- Start Menu -->
     <?php include_once "../menu.php" ?>

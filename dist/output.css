@@ -534,10 +534,8 @@ h2 {
   --tw-backdrop-sepia:  ;
 }
 
-@media (min-width: 768px) {
-  .content_lessons {
-    grid-column: span 4 / span 4;
-  }
+.content_lessons {
+  /* Style for Content Lessons */
 }
 
 .content_lessons > :not([hidden]) ~ :not([hidden]) {
@@ -547,28 +545,43 @@ h2 {
 }
 
 .content_lessons {
-  text-align: justify;
   border-radius: 1rem;
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(30 64 175 / var(--tw-border-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  text-align: right;
+  text-align: justify;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
   .content_lessons {
+    grid-column: span 4 / span 4;
     max-height: -moz-fit-content;
     max-height: fit-content;
   }
 }
 
-.content_lessons {
-  text-align: right;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.main_content {
+  /* Style For Parent Content Lessons */
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  text-align: center;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .main_content {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
 }
 
 .col-span-2 {
