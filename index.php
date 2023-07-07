@@ -40,16 +40,16 @@
     <main class="m-7 text-center space-y-7">
         <div class="text-center grid grid-cols-4 gap-4" id="HeroGrid">
             <div class="col-span-2">
-                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux1.jpg' ?>" alt="Linux">
+                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux1C.jpg' ?>" alt="Linux">
             </div>
             <div class="col-span-2">
-                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux2.jpg' ?>" alt="Linux">
+                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux2C.jpg' ?>" alt="Linux">
             </div>
             <div class="sm:hidden">
-                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux3.jpg' ?>" alt="Linux">
+                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux3C.jpg' ?>" alt="Linux">
             </div>
             <div class="col-span-2 sm:hidden">
-                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux4.jpg' ?>" alt="Kali Linux">
+                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux4C.jpg' ?>" alt="Kali Linux">
             </div>
             <div class="sm:hidden">
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux5.webp' ?>" alt="Linux">
@@ -58,10 +58,10 @@
                 <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux9.jpg' ?>" alt="debian">
             </div>
             <div>
-                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux7.webp' ?>" alt="Kali Linux">
+                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux7C.jpg' ?>" alt="Kali Linux">
             </div>
             <div class="col-span-2">
-                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux8.jpg' ?>" alt="Arch Linux">
+                <img src="<?= MAIN_SERVER . 'assets/img/Hero/linux8C.jpg' ?>" alt="Arch Linux">
             </div>
         </div>
         <h1 class="text-4xl">به صورت رایگان لینوکس یاد بگیرید !</h1>
