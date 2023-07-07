@@ -60,20 +60,28 @@
     margin: 0;
 }
 /* Root Color (BackGround And Text) */
-.MAIN-COLOR {
+.MAIN-COLOR { /* BackGround MAIN */
     background-color: rgb(0,5,19);
     color: white;
 }
-.SEC-COLOR {
+.SEC-COLOR { /* HEADER COLOR */
     background-color: rgb(1,10,27);
     color: white;
 }
-.THR-COLOR {
+.THR-COLOR { /* MENU COLOR */
     background-color: rgb(8,16,29);
     color: black;
 }
-.CONTENT_BACK_COLOR {
+.CONTENT_BACK_COLOR { /* BackGround Lesson COLOR */
     background-color: rgb(31 41 55 / 1);
+    color: white;
+}
+.LIST_LESSON { /* BackGround List Lesson */
+    background-color: rgb(30 64 175 / 1);
+    color: white;
+}
+.CONTENT_COLOR { /* BackGround Content Lesson */
+    background-color: rgb(29 78 216 / 1);
     color: white;
 }
 /* Root Color (BackGround And Text) */

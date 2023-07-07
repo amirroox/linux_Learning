@@ -5,3 +5,5 @@ const MAIN_DIR = __DIR__ . '/';  #Main Directory
 const MAIN_SERVER = "http://localhost:63342/Linux_Learning" . '/';  # Main Server
 const MAIN_GITHUB = "https://github.com/amirroox/Linux_Learning"; # Github Page
 const MAIN_SITE = "https://road-map.ir";
+
+include_once "assets/helper/Helper.php";

@@ -580,6 +580,10 @@ h2 {
   margin-right: 1rem;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -614,6 +618,10 @@ h2 {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .columns-1 {
@@ -875,6 +883,10 @@ h2 {
     grid-column: span 4 / span 4;
   }
 
+  .md\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -941,4 +953,9 @@ h2 {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.\[\&\>li\]\:bg-blue-800>li {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }

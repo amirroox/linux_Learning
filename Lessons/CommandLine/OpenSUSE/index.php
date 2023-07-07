@@ -65,7 +65,7 @@ $name_file = basename(__DIR__);
 
     <!-- Start Next Lesson -->
     <?php
-    Next_Lesson('CommandLine' , 'خط فرمان' , 1);
+    Next_Lesson('Debian');
     ?>
     <!-- End Next Lesson -->
 
