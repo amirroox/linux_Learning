@@ -26,7 +26,7 @@ $name_file = basename(__DIR__);
     <div class="md:hidden">
         <h1 class="text-2xl">توضیحات</h1>
     </div>
-    <div class="md:col-span-4 text-justify CONTENT_COLOR rounded-2xl border-4 border-blue-800 md:max-h-fit text-right py-3 px-5 text-white">
+    <div class="content_lessons CONTENT_COLOR">
         <h1>انتخاب یه توزیع برای کار</h1>
         <p>
             خب ، توی بخش قبلی یا بهتره بگیم درس قبلی با تاریخچه لینوکس آشنا شدیم ولی یه چیزی رو یادمون رفت بگیم که بهتره اینجا تصحیحش کنیم و اونم

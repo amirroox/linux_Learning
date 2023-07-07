@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom */
+/* Custom Base */
 @layer base {
     h1 {
         @apply text-2xl;
@@ -10,5 +10,21 @@
     }
     h2 {
         @apply text-xl;
+    }
+}
+/* Custom Project */
+@layer components {
+    .content_lessons {
+        @apply md:col-span-4;
+        @apply space-y-3;
+        @apply text-justify;
+        @apply rounded-2xl;
+        @apply border-4;
+        @apply border-blue-800;
+        @apply md:max-h-fit;
+        @apply text-right;
+        @apply py-3;
+        @apply px-5;
+        @apply text-white;
     }
 }

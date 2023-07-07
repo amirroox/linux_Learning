@@ -26,8 +26,9 @@ $name_file = basename(__DIR__);
     <div class="md:hidden">
         <h1 class="text-2xl">توضیحات</h1>
     </div>
-    <div class="md:col-span-4 text-justify CONTENT_COLOR rounded-2xl border-4 border-blue-800 md:max-h-fit text-right py-3 px-5 text-white">
-        <h1>تاریخچه لینوکس خوشگلمون</h1>
+    <div class="content_lessons CONTENT_COLOR">
+        <h1>توزیع دبیان</h1>
+        <h2>بررسی سریع : </h2>
         <p>
             اگه بخوایم الان در مورد تاریخچه لینوکس صحبت کنیم من ینفر محتوا کم میارم(همینجوری هم همیشه محتوا کم دارم!)
             اما چون قراره باهم دیگه لینوکس کار کنیم ، بلخره باید یه چیزایی رو از تاریخچه و شکل گیری این سیستم عامل
