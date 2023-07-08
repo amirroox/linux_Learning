@@ -1,7 +1,7 @@
 <div class="md:hidden">
     <h1 class="text-2xl">لیست فهرست</h1>
 </div>
-<div>
+<div id="LessonsMenu">
     <ol class="[&>a]:block [&>a]:mb-3">
         <a href="../History">
             <li id="History" class="LIST_LESSON py-1 hover:bg-red-500 hover:text-white duration-500">تاریخچه</li>

@@ -923,6 +923,10 @@ h2 {
     margin-right: 2.5rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:hidden {
     display: none;
   }

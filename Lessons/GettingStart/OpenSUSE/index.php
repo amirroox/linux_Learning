@@ -78,10 +78,18 @@ $name_file = basename(__DIR__);
 <script src="<?= MAIN_SERVER . 'assets/js/HeaderFooter.js'?>"></script>
 <!-- Custom Script -->
 <script>
-    $('#<?=$name_file?>').addClass("bg-red-500");
+    $('#<?=$name_file?>').addClass("bg-red-500"); //Active Lesson
+
     $('body,html').animate({
         scrollTop: $('#end_menu').offset().top
     }, 800);
+
+    // Season Next For Desktop
+    $("#LessonsMenu ol").append(`
+        <a href="../../CommandLine">
+            <li id="CommandLine" class="hidden md:block LIST_LESSON py-1 hover:bg-red-500 hover:text-white duration-500">فصل بعدی : خط فرمان</li>
+        </a>
+    `);
 </script>
 
 </body>
