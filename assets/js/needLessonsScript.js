@@ -18,6 +18,22 @@ $('#referenceQuiz_lessons button').on('click' , function () {
         data: {Season : Season , Lesson : Lesson , Quiz : Quiz},
         url: "../../AjaxHandler.php",
         success: function (res) {
+            if (res.indexOf('وای بر من') !== -1) {
+                Swal.fire({
+                    showClass: {
+                        popup: 'animate__animated animate__heartBeat'
+                    },
+                    hideClass: {
+                        popup: 'animate__animated animate__lightSpeedOutRight'
+                    },
+                    scrollbarPadding: false,
+                    position: 'center',
+                    icon: 'error',
+                    title: 'مشکل!',
+                    showConfirmButton: false,
+                });
+                return;
+            }
             Swal.fire({
                 showClass: {
                     popup: 'animate__animated animate__swing'
