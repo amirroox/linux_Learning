@@ -13,6 +13,7 @@
 }
 /* Custom Project */
 @layer components {
+
     #LessonsMenu li{ /* Style for List Lessons <li> */
         @apply py-1 hover:bg-red-500 hover:text-white duration-500;
     }
@@ -25,11 +26,20 @@
     }
 
     /* Start Style For Reference & Quiz */
-    .referenceQuiz_lessons { /* Style Parent */
+    #referenceQuiz_lessons { /* Style Parent */
         @apply md:col-span-2 grid grid-rows-1 md:grid-rows-2 gap-3 text-justify;
     }
-    .referenceQuiz_lessons div { /* Style Child */
-        @apply rounded-r-2xl md:overflow-y-auto md:max-h-[39vh] py-3 px-5;
+    #referenceQuiz_lessons div { /* Style Child */
+        @apply rounded-r-2xl md:overflow-y-auto md:max-h-[39vh] py-3 px-5 space-y-3;
+    }
+    #referenceQuiz_lessons div a { /* Style Child */
+        @apply hover:text-red-400;
+    }
+    #referenceQuiz_lessons div button { /* Style Button (Answer) */
+        @apply py-1 px-3 bg-white text-blue-500 my-3 md:mx-5 md:my-0 rounded-full block md:inline;
+    }
+    #referenceQuiz_lessons div ol hr {
+        @apply my-3 ;
     }
     /* End Style For Reference & Quiz */
 }

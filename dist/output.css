@@ -604,7 +604,7 @@ h2 {
 
 /* Start Style For Reference & Quiz */
 
-.referenceQuiz_lessons {
+#referenceQuiz_lessons {
   /* Style Parent */
   display: grid;
   grid-template-rows: repeat(1, minmax(0, 1fr));
@@ -613,14 +613,23 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .referenceQuiz_lessons {
+  #referenceQuiz_lessons {
     grid-column: span 2 / span 2;
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 }
 
-.referenceQuiz_lessons div {
+#referenceQuiz_lessons div {
   /* Style Child */
+}
+
+#referenceQuiz_lessons div > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+#referenceQuiz_lessons div {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding-top: 0.75rem;
@@ -630,10 +639,50 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .referenceQuiz_lessons div {
+  #referenceQuiz_lessons div {
     max-height: 39vh;
     overflow-y: auto;
   }
+}
+
+#referenceQuiz_lessons div a {
+  /* Style Child */
+}
+
+#referenceQuiz_lessons div a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+#referenceQuiz_lessons div button {
+  /* Style Button (Answer) */
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: block;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  #referenceQuiz_lessons div button {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline;
+  }
+}
+
+#referenceQuiz_lessons div ol hr {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 /* End Style For Reference & Quiz */

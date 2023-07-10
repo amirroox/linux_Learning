@@ -11,3 +11,7 @@
 
 <!-- Tailwindcss -->
 <link href="<?= MAIN_SERVER . 'dist/output.css'?>" rel="stylesheet">
+
+<!-- Sweetalert2 -->
+<link href="<?= MAIN_SERVER . 'assets/vendor/animate.min.css'?>" rel="stylesheet">
+<script src="<?= MAIN_SERVER . 'assets/vendor/sweetalert2.all.min.js'?>"></script>

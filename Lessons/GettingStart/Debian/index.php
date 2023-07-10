@@ -1,6 +1,7 @@
 <?php
 include_once "../../../Constants.php" ;
-$name_file = basename(__DIR__);
+$name_file = basename(__DIR__); /* Name This Lesson */
+$name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 ?>
 <!doctype html>
 <html lang="fa" dir="rtl">
@@ -78,10 +79,6 @@ $name_file = basename(__DIR__);
 <!-- Custom Script -->
 <script>
     $('#<?=$name_file?>').addClass("bg-red-500");
-    $('body,html').animate({
-        scrollTop: $('#end_menu').offset().top
-    }, 800);
-
     // Season next
     $("#LessonsMenu ol").append(`
         <a href="../../CommandLine">
@@ -89,6 +86,6 @@ $name_file = basename(__DIR__);
         </a>
     `);
 </script>
-
+<script src="<?= MAIN_SERVER . 'assets/js/needLessonsScript.js' ?>"></script>
 </body>
 </html>
