@@ -23,11 +23,9 @@ $name_file = basename(__DIR__);
     <?php include_once "../menu.php" ?>
     <!-- End Menu -->
 
-    <div class="md:hidden">
-        <h1 class="text-2xl">توضیحات</h1>
-    </div>
+    <h1 class="md:hidden">توضیحات</h1>
     <div class="content_lessons CONTENT_COLOR">
-        <h1>توزیع اَپِن سوزه</h1>
+        <h1>توزیع اُپِن سوزه</h1>
         <h2>بررسی سریع : </h2>
         <p>
             این توزیع هم مثل توزیع دبیان و فدروا از کرنل اصلی لینوکس ساخته شده و یک محصول مستقل به حساب میاد.این پروژه یه پروژه کاملا اجتماعی

@@ -23,9 +23,7 @@ $name_file = basename(__DIR__);
     <?php include_once "../menu.php" ?>
     <!-- End Menu -->
 
-    <div class="md:hidden">
-        <h1 class="text-2xl">توضیحات</h1>
-    </div>
+    <h1 class="md:hidden">توضیحات</h1>
     <div class="content_lessons CONTENT_COLOR">
         <h1>توزیع جنتو</h1>
         <h2>بررسی سریع : </h2>

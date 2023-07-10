@@ -536,6 +536,20 @@ h2 {
   --tw-backdrop-sepia:  ;
 }
 
+#LessonsMenu li{
+  /* Style for List Lessons <li> */
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  transition-duration: 500ms;
+}
+
+#LessonsMenu li:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .content_lessons {
   /* Style for Content Lessons */
 }
@@ -547,7 +561,8 @@ h2 {
 }
 
 .content_lessons {
-  border-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(30 64 175 / var(--tw-border-opacity));
@@ -563,9 +578,9 @@ h2 {
 
 @media (min-width: 768px) {
   .content_lessons {
-    grid-column: span 4 / span 4;
-    max-height: -moz-fit-content;
-    max-height: fit-content;
+    grid-column: span 2 / span 2;
+    max-height: 80vh;
+    overflow-y: auto;
   }
 }
 
@@ -574,6 +589,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 1rem;
+  overflow: hidden;
   padding: 1rem;
   text-align: center;
   --tw-text-opacity: 1;
@@ -585,6 +601,42 @@ h2 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
+
+/* Start Style For Reference & Quiz */
+
+.referenceQuiz_lessons {
+  /* Style Parent */
+  display: grid;
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  gap: 0.75rem;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .referenceQuiz_lessons {
+    grid-column: span 2 / span 2;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.referenceQuiz_lessons div {
+  /* Style Child */
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .referenceQuiz_lessons div {
+    max-height: 39vh;
+    overflow-y: auto;
+  }
+}
+
+/* End Style For Reference & Quiz */
 
 .col-span-2 {
   grid-column: span 2 / span 2;
@@ -819,14 +871,14 @@ h2 {
   line-height: 1.75rem;
 }
 
+.text-red-400 {
+  --tw-text-opacity: 1;
+  color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.text-red-700 {
-  --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
 .text-sky-400 {
@@ -837,11 +889,6 @@ h2 {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-red-400 {
-  --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
 }
 
 .transition {
