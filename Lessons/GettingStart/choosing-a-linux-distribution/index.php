@@ -55,6 +55,43 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         </b>
     </div>
 
+    <!-- Start Reference & Quiz -->
+    <h1 class="md:hidden">منابع و آزمون</h1>
+    <div id="referenceQuiz_lessons" nameSeason="<?= $name_file_season ?>" nameLesson="<?= $name_file ?>">
+        <div class="CONTENT_COLOR">
+            <h2>منابع مرتبط : </h2>
+            <p>
+                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های بالا رو دنبال کنید!
+            </p>
+            <ol class="text-center">
+                <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>
+                <li><a href="https://www.digikala.com/mag/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/">نگاهی به تاریخچه‌ی لینوکس (دیجی مگ)</a></li>
+                <li><a href="https://tehrantrain.com/learning/unix-linux-history/">تاریخچه کامل لینوکس</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/GNU">سیستم عامل گنو</a></li>
+            </ol>
+        </div>
+        <div class="CONTENT_COLOR">
+            <h2>آزمون :</h2>
+            <ol>
+                <li>
+                    سازنده هسته لینوکس چه نام داشت؟
+                    <button quiz="1">مشاهده پاسخ</button>
+                </li>
+                <hr>
+                <li>
+                    هسته لینوکس در چه سالی تولید شد؟
+                    <button quiz="2">مشاهده پاسخ</button>
+                </li>
+                <hr>
+                <li>
+                    لینوکس به چه دلیل ساخته شد؟
+                    <button quiz="3">مشاهده پاسخ</button>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!-- End Reference & Quiz -->
+
     <!-- Start Next Lesson -->
     <?php
         Next_Lesson('Debian');

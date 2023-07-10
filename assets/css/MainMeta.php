@@ -15,3 +15,6 @@
 <!-- Sweetalert2 -->
 <link href="<?= MAIN_SERVER . 'assets/vendor/animate.min.css'?>" rel="stylesheet">
 <script src="<?= MAIN_SERVER . 'assets/vendor/sweetalert2.all.min.js'?>"></script>
+
+<!-- SplideJs Library Slider -->
+<script src="<?= MAIN_SERVER . 'assets/vendor/swiper-element-bundle.min.js'?>"></script>

@@ -48,3 +48,10 @@ header {
 li.openSubMenu ul.subMenuD{
     display: none;
 }
+
+/* Slider Images Lessons */
+swiper-container::part(bullet-active) ,
+swiper-container::part(navigation) ,
+swiper-container::part(scrollbar) {
+    background-color: red;
+}

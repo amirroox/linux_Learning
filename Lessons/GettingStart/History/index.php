@@ -60,6 +60,22 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             اما همینجوری نموند و بعضی از شرکت ها اومدن و نسخه های خودشون رو ارائه دادن (بر پایه لینوکس) و با قیمت های خودشون به فروش رسوندن ، اما هنوز که هنوزه
             لینوکس یه سیستم عامل رایگانه که میتونید همه جا راحت دانلودش کنید و هر بلایی خواستید سرش بیارید.(من از طرف شما از لینوس تشکر میکنم!)
         </p>
+
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://www.elprocus.com/wp-content/uploads/2014/10/History-OF-Linux.png"
+                     alt="linux History">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://www.linuxadictos.com/wp-content/uploads/linustorvalds-1024x683.jpg"
+                     alt="Linus Torvalds">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://techcrunch.com/wp-content/uploads/2016/08/gettyimages-532505754.jpg"
+                     alt="Linus Torvalds">
+            </swiper-slide>
+        </swiper-container>
     </div>
 
     <!-- Start Reference & Quiz -->

@@ -5,9 +5,16 @@ $('body,html').animate({
 
 /* All Link a */
 let aLink = $('#referenceQuiz_lessons a');
-aLink.attr("target" , "_blank");
-aLink.attr("rel" , "noopener noreferrer nofollow");
+aLink.attr({
+    "target": "_blank",
+    "rel": "noopener noreferrer nofollow"
+});
 
+/* Slider Style */
+$('swiper-container').attr({
+    "pagination": "true",
+    "scrollbar":"true"
+})
 /* Ajax For Answer Quiz */
 $('#referenceQuiz_lessons button').on('click' , function () {
     let Season = document.getElementById('referenceQuiz_lessons').getAttribute("nameSeason");
