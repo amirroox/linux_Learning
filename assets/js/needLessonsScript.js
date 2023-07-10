@@ -31,18 +31,20 @@ $('#referenceQuiz_lessons button').on('click' , function () {
                     left top
                     no-repeat
                 `,
+                scrollbarPadding: false,
+                width:'90%' ,
                 position: 'center',
                 icon: 'success',
-                title: res,
+                title: 'پاسخ',
+                text: res,
                 showConfirmButton: false,
-                timer: 10000,
             })
         },
         error: function () {
             Swal.fire({
                 position: 'center',
                 icon: 'error',
-                title: 'یه جایی به مشگل خوردیم!',
+                title: 'یه جایی به مشکل خوردیم!',
                 showConfirmButton: false,
                 timer: 1500
             })

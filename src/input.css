@@ -33,10 +33,12 @@
         @apply rounded-r-2xl md:overflow-y-auto md:max-h-[39vh] py-3 px-5 space-y-3;
     }
     #referenceQuiz_lessons div a { /* Style Child */
-        @apply hover:text-red-400;
+        @apply hover:text-blue-800 bg-red-500 my-[1px] inline-block py-0.5 px-2
+            hover:bg-white hover:text-blue-400 duration-500;
     }
     #referenceQuiz_lessons div button { /* Style Button (Answer) */
-        @apply py-1 px-3 bg-white text-blue-500 my-3 md:mx-5 md:my-0 rounded-full block md:inline;
+        @apply py-1 px-3 bg-red-500 text-white my-3 md:mx-5 md:my-0 rounded-full block md:inline
+            md:float-left hover:bg-white hover:text-blue-400 duration-500;
     }
     #referenceQuiz_lessons div ol hr {
         @apply my-3 ;
