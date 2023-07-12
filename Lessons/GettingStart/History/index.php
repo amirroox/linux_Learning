@@ -64,7 +64,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <!-- Slider -->
         <swiper-container>
             <swiper-slide>
-                <img src="https://www.elprocus.com/wp-content/uploads/2014/10/History-OF-Linux.png"
+                <img src="https://slideplayer.com/slide/12761004/77/images/2/LINUX+History.jpg"
                      alt="linux History">
             </swiper-slide>
             <swiper-slide>

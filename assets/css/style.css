@@ -50,8 +50,6 @@ li.openSubMenu ul.subMenuD{
 }
 
 /* Slider Images Lessons */
-swiper-container::part(bullet-active) ,
-swiper-container::part(navigation) ,
-swiper-container::part(scrollbar) {
-    background-color: red;
+swiper-container::part(bullet-active) {
+    background-color: red ;
 }

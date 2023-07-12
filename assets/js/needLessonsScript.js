@@ -15,6 +15,7 @@ $('swiper-container').attr({
     "pagination": "true",
     "scrollbar":"true"
 })
+
 /* Ajax For Answer Quiz */
 $('#referenceQuiz_lessons button').on('click' , function () {
     let Season = document.getElementById('referenceQuiz_lessons').getAttribute("nameSeason");
@@ -74,3 +75,16 @@ $('#referenceQuiz_lessons button').on('click' , function () {
         }
     });
 });
+
+/* Version For Css Link (Catching) */
+    // All Link
+        // let css = document.querySelectorAll('link');
+        // css.forEach(function (item) {
+        //     item.href += "?v=1";
+        // });
+
+    // Need Link
+        // $('link[href*="output.css"]').attr('href',
+        //     function (index,oldValue){
+        //     return oldValue + "?v=1";
+        // });
