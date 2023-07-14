@@ -76,6 +76,12 @@ $('#referenceQuiz_lessons button').on('click' , function () {
     });
 });
 
+/* Text Of Button (Default) */
+let btnQuiz = document.querySelectorAll("button[quiz]");
+btnQuiz.forEach(function (elem) {
+   if (elem.textContent === '' || elem.textContent === null) elem.append("مشاهده جواب")
+});
+
 /* Version For Css Link (Catching) */
     // All Link
         // let css = document.querySelectorAll('link');

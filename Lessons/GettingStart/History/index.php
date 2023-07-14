@@ -65,15 +65,15 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <swiper-container>
             <swiper-slide>
                 <img src="https://slideplayer.com/slide/12761004/77/images/2/LINUX+History.jpg"
-                     alt="linux History">
+                     alt="linux History" loading="lazy">
             </swiper-slide>
             <swiper-slide>
                 <img src="https://www.linuxadictos.com/wp-content/uploads/linustorvalds-1024x683.jpg"
-                     alt="Linus Torvalds">
+                     alt="Linus Torvalds" loading="lazy">
             </swiper-slide>
             <swiper-slide>
                 <img src="https://techcrunch.com/wp-content/uploads/2016/08/gettyimages-532505754.jpg"
-                     alt="Linus Torvalds">
+                     alt="Linus Torvalds" loading="lazy">
             </swiper-slide>
         </swiper-container>
     </div>
@@ -84,7 +84,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های بالا رو دنبال کنید!
+                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های زیر رو دنبال کنید!
             </p>
             <ol class="text-center">
                 <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>

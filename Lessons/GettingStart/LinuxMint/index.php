@@ -46,8 +46,26 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
            از این توزیع هم میشه روی سرور استفاده کرد ، اما به ندرت استفاده میشه و برای سیستم های رومیزی و خونگی خیلی بهتره!
         </p>
         <b>
-            منم تو این آموزش از توزیع های بر پایه دبیان استفاده میکنم!
+            منم تو این آموزش از توزیع های بر پایه دبیان استفاده میکنم! یعنی از خود مینت استفاده میکنم!
         </b>
+
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Linux_Mint_21_%22Vanessa%22_%28Cinnamon%29.png"
+                     alt="linux mint" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://tecadmin.net/static/linux-distributions/linuxmint.webp"
+                     alt="linux mint" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://debugpointnews.com/wp-content/uploads/2022/07/mint-generic-head.jpg"
+                     alt="linux mint" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
+
     </div>
 
     <!-- Start Reference & Quiz -->
@@ -56,31 +74,26 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های بالا رو دنبال کنید!
+                این زیر هم چنتا چیز هست میتونید نگاه کنید :)
             </p>
             <ol class="text-center">
-                <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>
-                <li><a href="https://www.digikala.com/mag/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/">نگاهی به تاریخچه‌ی لینوکس (دیجی مگ)</a></li>
-                <li><a href="https://tehrantrain.com/learning/unix-linux-history/">تاریخچه کامل لینوکس</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/GNU">سیستم عامل گنو</a></li>
+                <li><a href="https://linuxmint.com/">سیات رسمی لینوکس مینت</a></li>
+                <li><a href="https://fa.wikipedia.org/wiki/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3_%D9%85%DB%8C%D9%86%D8%AA">لینوکس مینت (ویکی)</a></li>
+                <li><a href="https://linux.tosinso.com/fa/articles/25201/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-Mint-%DA%86%DB%8C%D8%B3%D8%AA-%D8%9F-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%85%DB%8C%D9%86%D8%AA-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%A8%D8%B3%DB%8C%D8%A7%D8%B1-%D8%B3%D8%A7%D8%AF%D9%87">لینوکس Mint چیست ؟</a></li>
+                <li><a href="https://maktabkhooneh.org/mag/all-about-linux-mint/">لینوکس مینت چیست؟ اوبونتو بهتر است یا مینت؟</a></li>
             </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                    سازنده هسته لینوکس چه نام داشت؟
-                    <button quiz="1">مشاهده پاسخ</button>
+                    توزیع لینوکس مینت از چی ساخته شده ؟
+                    <button quiz="1"></button>
                 </li>
                 <hr>
                 <li>
-                    هسته لینوکس در چه سالی تولید شد؟
-                    <button quiz="2">مشاهده پاسخ</button>
-                </li>
-                <hr>
-                <li>
-                    لینوکس به چه دلیل ساخته شد؟
-                    <button quiz="3">مشاهده پاسخ</button>
+                    لینوکس مینت از چه پکیج منیجیری استفاده میکنه؟
+                    <button quiz="2"></button>
                 </li>
             </ol>
         </div>

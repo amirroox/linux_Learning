@@ -41,11 +41,39 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <p>
             بر خلاف خانواده دبیان و فدورا ، جنتو از پکیج منیجر مخصوص خودش به نام Portage استفاده میکنه.
         </p>
+
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://www.kompulsa.com/wp-content/uploads/2018/05/Gentoo-Package-Manager-Installing.png"
+                     alt="portage package manager" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
+
         <h2>استفاده :</h2>
         <p>
             استفاده از جنتو مثل توزیع های قبلی آسون نیست! و کلا برای کاربران مبتدی مناسب نیست، حتی برای نصب هم باید از دستورات استفاده کنید
             و از محیط گرافیکی خبری نیست! ولی در هر صورت اگه از چالش خوشتون میاد و یادگیری براتون لذت بخشه میتونید این توزیع رو استفاده کنید و لذت ببرید.
         </p>
+
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Gentoo_Live_GUI_USB_running_KDE.png"
+                     alt="gentoo" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://blog.paranoidpenguin.net/wp-content/uploads/2017/03/GentooLinux-KDE5-Plasma.png"
+                     alt="gentoo" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Gentoo-Linux.png"
+                     alt="gentoo" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
+
     </div>
 
     <!-- Start Reference & Quiz -->
@@ -54,31 +82,21 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های بالا رو دنبال کنید!
+                بازم مثل همیشه از زیر منابع مرتبط رو میتونید ببینید :
             </p>
             <ol class="text-center">
-                <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>
-                <li><a href="https://www.digikala.com/mag/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/">نگاهی به تاریخچه‌ی لینوکس (دیجی مگ)</a></li>
-                <li><a href="https://tehrantrain.com/learning/unix-linux-history/">تاریخچه کامل لینوکس</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/GNU">سیستم عامل گنو</a></li>
+                <li><a href="https://www.gentoo.org/">سایت رسمی جنتو</a></li>
+                <li><a href="https://fa.wikipedia.org/wiki/%D8%AC%D9%86%D8%AA%D9%88_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">جنتو (ویکی پدیا)</a></li>
+                <li><a href="https://faceit.ir/news/6727/5-Reasons-why-use-Gentoo-Linux/">پنج دلیل برای استفاده از جنتو لینوکس</a></li>
+                <li><a href="https://parsdev.com/blog/linux-gentoo">Gentoo Linux چیست؟</a></li>
             </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                    سازنده هسته لینوکس چه نام داشت؟
-                    <button quiz="1">مشاهده پاسخ</button>
-                </li>
-                <hr>
-                <li>
-                    هسته لینوکس در چه سالی تولید شد؟
-                    <button quiz="2">مشاهده پاسخ</button>
-                </li>
-                <hr>
-                <li>
-                    لینوکس به چه دلیل ساخته شد؟
-                    <button quiz="3">مشاهده پاسخ</button>
+                  جنتو از چه پکیج منیجری استفاده میکنه؟
+                    <button quiz="1"></button>
                 </li>
             </ol>
         </div>

@@ -41,6 +41,20 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <p>
             این توزیع هم مثل جنتو از پکیج منیجر مخصوص به خودش به نام pacman استفاده میکنه.
         </p>
+
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://ostechnix.com/wp-content/uploads/2019/12/deb-pacman-install-package.png"
+                     alt="pacman package manager" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://itsfoss.com/content/images/wordpress/2020/04/sudo-pacman-S.png"
+                     alt="pacman package manager" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
+
         <h2>استفاده :</h2>
         <p>
             استفاده از آرچ هم در حد گنتو پیچیده است و برای افراد مبتدی مناسب نیست ، اما سرعت و سبکیش میتونه برای هر سیستمی با
@@ -55,6 +69,24 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             </a>
             استفاده کنید)
         </p>
+
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://www.debugpoint.com/wp-content/uploads/2023/05/XeroLinux-Desktop.jpg"
+                     alt="arch linux" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Archlinux-logo-standard-version.png/1200px-Archlinux-logo-standard-version.png"
+                     alt="arch linux" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Arch_Linux_ISOLINUX_screenshot.png"
+                     alt="arch linux" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
+
     </div>
 
     <!-- Start Reference & Quiz -->
@@ -63,31 +95,27 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های بالا رو دنبال کنید!
+                اینجا هم منابع مرتبط و آموزشی رو براتون گذاشتم :
             </p>
             <ol class="text-center">
-                <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>
-                <li><a href="https://www.digikala.com/mag/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/">نگاهی به تاریخچه‌ی لینوکس (دیجی مگ)</a></li>
-                <li><a href="https://tehrantrain.com/learning/unix-linux-history/">تاریخچه کامل لینوکس</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/GNU">سیستم عامل گنو</a></li>
+                <li><a href="https://archlinux.org/">سایت رسمی آرچ لینوکس</a></li>
+                <li><a href="https://wiki.archlinux.org/">ویکی آرچ لینوکس</a></li>
+                <li><a href="https://fa.wikipedia.org/wiki/%D8%A2%D8%B1%DA%86_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">آرچ لینوکس (ویکی پدیا)</a></li>
+                <li><a href="https://digiato.com/article/2021/10/25/%D8%A2%D8%B1%DA%86-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%DA%86%DB%8C%D8%B3%D8%AA-%D9%88-%D9%85%D8%B2%D8%A7%DB%8C%D8%A7%DB%8C-%D8%A2%D9%86">آرچ لینوکس چیست و مناسب کدام دسته از کاربران است؟</a></li>
+                <li><a href="https://iranicaserver.com/Blog/install-arch-linux/">آموزش نصب آرچ لینوکس || Arch Linux</a></li>
             </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                    سازنده هسته لینوکس چه نام داشت؟
-                    <button quiz="1">مشاهده پاسخ</button>
+                    آرچ لینوکس از چه پکیج منیجری استفاده میکنه؟
+                    <button quiz="1"></button>
                 </li>
                 <hr>
                 <li>
-                    هسته لینوکس در چه سالی تولید شد؟
+                    رو مشاهده پاسخ نزن!
                     <button quiz="2">مشاهده پاسخ</button>
-                </li>
-                <hr>
-                <li>
-                    لینوکس به چه دلیل ساخته شد؟
-                    <button quiz="3">مشاهده پاسخ</button>
                 </li>
             </ol>
         </div>

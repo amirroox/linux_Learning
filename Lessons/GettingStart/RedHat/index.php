@@ -40,14 +40,38 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <h2>پکیج منیجر :</h2>
         <p>
             ردهت اولین توزیع از لینوکس بود که از پکیج منیجر جدیدی استفاده کرد و همین کار باعث شد توزیع های جدیدتر هم از این قالب بندی استفاده کنن.
-            پکیج منیجری که ردهت (و خانواده فدورا) ازش استفاده میکنه RPM Package Manager که با این پکیج منیجرم در فصل های بعدی آشنا میشیم، پس فعلا فقط اینارو بدونید!
+            پکیج منیجری که ردهت (و خانواده فدورا) ازش استفاده میکنه RPM Package Manager است که با این پکیج منیجرم در فصل های بعدی آشنا میشیم، پس فعلا فقط اینارو بدونید!
         </p>
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://www.redhat.com/sysadmin/sites/default/files/styles/embed_large/public/2020-04/p2.png"
+                     alt="RPM" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
         <h2>استفاده :</h2>
         <p>
             استفاده از ردهت یکمی سختتر از دبیانه ولی بازم نمیشه گفت برای استفاده خیلی پیچیده است ، بلکه با کمی دانش فنی پایه میشه راحت ازش استفاده کرد.
             و توجه کنید که این توزیع بیشتر برای سرور استفاده میشه (همونطوری که از اسم کاملشم مشخصه) پس اگه سرور دارید یا سیستم قوی دارید از این
             توزیع استفاده کنید.(البته مشخصات سیستمی قوی هم نیاز نداره ، اما برای شروع هزینه نکنید بهتره و با چیزای رایگان هم کارتون راه میوفته!)
         </p>
+        <!-- Slider -->
+        <swiper-container>
+            <swiper-slide>
+                <img src="https://venturebeat.com/wp-content/uploads/2021/09/Red-Hat-e1684880569131.jpg"
+                     alt="redhat" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20201109002948/searchbar.png"
+                     alt="redhat" loading="lazy">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="https://www.unixsysadmin.com/wp-content/uploads/sites/3/2022/07/RHEL9.png"
+                     alt="redhat" loading="lazy">
+            </swiper-slide>
+        </swiper-container>
+        <!-- Slider -->
     </div>
 
     <!-- Start Reference & Quiz -->
@@ -56,31 +80,25 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های بالا رو دنبال کنید!
+                این زیرم براتون چنتا لینک مرتبط گذاشتم ، که اگه دوست داشتید دنبال کنید :
             </p>
             <ol class="text-center">
-                <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>
-                <li><a href="https://www.digikala.com/mag/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/">نگاهی به تاریخچه‌ی لینوکس (دیجی مگ)</a></li>
-                <li><a href="https://tehrantrain.com/learning/unix-linux-history/">تاریخچه کامل لینوکس</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/GNU">سیستم عامل گنو</a></li>
+                <li><a href="https://www.redhat.com/en">سایت اصلی ردهت</a></li>
+                <li><a href="https://linux.tosinso.com/fa/articles/23094/RedHat-%DA%86%DB%8C%D8%B3%D8%AA%D8%9F-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-RHEL-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%A8%D8%B3%DB%8C%D8%A7%D8%B1-%D8%B3%D8%A7%D8%AF%D9%87">RedHat چیست؟ معرفی لینوکس توزیع RHEL به زبان بسیار ساده</a></li>
+                <li><a href="https://blog.shetabanhost.com/what-is-red-hat/">توزیع رد هت چیست و چه کاربردی دارد</a></li>
             </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                    سازنده هسته لینوکس چه نام داشت؟
-                    <button quiz="1">مشاهده پاسخ</button>
+                    پکیج منیجر ردهت چیه ؟
+                    <button quiz="1"></button>
                 </li>
                 <hr>
                 <li>
-                    هسته لینوکس در چه سالی تولید شد؟
-                    <button quiz="2">مشاهده پاسخ</button>
-                </li>
-                <hr>
-                <li>
-                    لینوکس به چه دلیل ساخته شد؟
-                    <button quiz="3">مشاهده پاسخ</button>
+                    ردهت از چه خانواده لینوکسیه ؟
+                    <button quiz="2"></button>
                 </li>
             </ol>
         </div>
