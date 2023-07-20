@@ -1,2 +1,2 @@
 <?php
-header('Location: ' . 'History');
+header('Location: ' . 'The-Shell');

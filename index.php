@@ -77,7 +77,7 @@
                     </a>
                 </div>
                 <div class="box SEC-COLOR">
-                    <a href="#">
+                    <a href="Lessons/CommandLine">
                         <img class="mb-5" src="<?= MAIN_SERVER . 'assets/img/Lessons/Command Line.png' ?>" alt="Command Line">
                         <h3 class="text-xl mb-2">Command Line</h3>
                         <h3 class="text-xl mb-2">خط فرمان</h3>

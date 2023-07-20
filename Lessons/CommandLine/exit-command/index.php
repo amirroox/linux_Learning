@@ -21,7 +21,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 <main class="main_content">
 
     <!-- Start Menu -->
-    <?php include_once "../menu.php" ?>
+    <?php include_once "../menu2.php" ?>
     <!-- End Menu -->
 
     <h1 class="md:hidden">توضیحات</h1>
@@ -75,7 +75,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                مثل همیشه ، منابع مرتبط این زیر هستن (برای دکور نمیزارما! یه نگا بندازید) :
+                مثل همیشه ، منابع مرتبط این زیر هستن (از فصل های بعدی دیگه منابع نداریم! و به جاش تمرین دارید) :
             </p>
             <ol class="text-center">
                 <li><a href="https://www.opensuse.org/">سایت رسمی اپن سوزه</a></li>
@@ -119,8 +119,8 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     // Season Next For Desktop
     $("#LessonsMenu ol").append(`
-        <a href="../../CommandLine">
-            <li id="CommandLine" class="hidden md:block LIST_LESSON py-1 hover:bg-red-500 hover:text-white duration-500">فصل بعدی : خط فرمان</li>
+        <a href="../../WorkOnText">
+            <li id="WorkOnText" class="hidden md:block LIST_LESSON py-1 hover:bg-red-500 hover:text-white duration-500">فصل بعدی : کار با متن ها</li>
         </a>
     `);
 </script>
