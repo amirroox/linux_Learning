@@ -10,6 +10,15 @@
     h2 {
         @apply text-xl font-bold;
     }
+
+    /* Start PrismJs */
+    pre {
+        direction: ltr;
+    }
+    pre code {
+        @apply text-base md:text-sm !important;
+    }
+    /* End PrismJs */
 }
 /* Custom Project */
 @layer components {
@@ -18,7 +27,8 @@
         @apply py-1 hover:bg-red-500 hover:text-white duration-500;
     }
     .content_lessons { /* Style for Content Lessons */
-        @apply md:col-span-2 md:max-h-[80vh] space-y-3 text-justify rounded-r-2xl border-4 border-blue-800
+        @apply md:col-span-2 md:max-h-[80vh] space-y-3 text-justify rounded-2xl
+                md:rounded-r-2xl md:rounded-l-none border-4 border-blue-800
                 text-right py-3 px-5 text-white md:overflow-y-auto;
     }
     .main_content { /* Style For Parent Content Lessons */
@@ -30,7 +40,8 @@
         @apply md:col-span-2 grid grid-rows-1 md:grid-rows-2 gap-3 text-justify;
     }
     #referenceQuiz_lessons div { /* Style Child */
-        @apply rounded-r-2xl md:overflow-y-auto md:max-h-[39vh] py-3 px-5 space-y-3;
+        @apply rounded-2xl md:rounded-r-2xl md:rounded-l-none md:overflow-y-auto
+                md:max-h-[39vh] py-3 px-5 space-y-3;
     }
     #referenceQuiz_lessons div a { /* Style Child */
         @apply hover:text-blue-800 bg-red-500 my-[1px] inline-block py-0.5 px-2

@@ -436,6 +436,26 @@ h2 {
   font-weight: 700;
 }
 
+/* Start PrismJs */
+
+pre {
+  direction: ltr;
+}
+
+pre code {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+  pre code {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+}
+
+/* End PrismJs */
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -561,8 +581,7 @@ h2 {
 }
 
 .content_lessons {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-radius: 1rem;
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(30 64 175 / var(--tw-border-opacity));
@@ -581,6 +600,10 @@ h2 {
     grid-column: span 2 / span 2;
     max-height: 80vh;
     overflow-y: auto;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 }
 
@@ -630,8 +653,7 @@ h2 {
 }
 
 #referenceQuiz_lessons div {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-radius: 1rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1.25rem;
@@ -642,6 +664,10 @@ h2 {
   #referenceQuiz_lessons div {
     max-height: 39vh;
     overflow-y: auto;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 }
 
@@ -708,6 +734,10 @@ h2 {
 }
 
 /* End Style For Reference & Quiz */
+
+.static {
+  position: static;
+}
 
 .col-span-2 {
   grid-column: span 2 / span 2;
@@ -854,19 +884,6 @@ h2 {
   margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
-.border-blue-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(30 64 175 / var(--tw-border-opacity));
-}
-
 .border-sky-400 {
   --tw-border-opacity: 1;
   border-color: rgb(56 189 248 / var(--tw-border-opacity));
@@ -881,19 +898,9 @@ h2 {
   padding: 1rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-4 {
@@ -905,20 +912,8 @@ h2 {
   padding-bottom: 2.5rem;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 .text-2xl {
@@ -1047,10 +1042,6 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-4 {
-    grid-column: span 4 / span 4;
-  }
-
   .md\:mr-10 {
     margin-right: 2.5rem;
   }
@@ -1061,11 +1052,6 @@ h2 {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:max-h-fit {
-    max-height: -moz-fit-content;
-    max-height: fit-content;
   }
 
   .md\:w-4\/5 {
@@ -1079,10 +1065,6 @@ h2 {
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:gap-x-4 {

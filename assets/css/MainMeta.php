@@ -18,3 +18,7 @@
 
 <!-- SplideJs Library Slider -->
 <script src="<?= MAIN_SERVER . 'assets/vendor/swiper-element-bundle.min.js'?>"></script>
+
+<!-- PrismJS Library (Code Highlighter - Bash, Shell) -->
+<link href="<?= MAIN_SERVER . 'assets/vendor/prism.css'?>" rel="stylesheet">
+<script src="<?= MAIN_SERVER . 'assets/vendor/prism.js'?>"></script>

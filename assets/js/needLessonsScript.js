@@ -82,6 +82,15 @@ btnQuiz.forEach(function (elem) {
    if (elem.textContent === '' || elem.textContent === null) elem.append("مشاهده جواب")
 });
 
+/* Add Prism Language Bash Command line */
+let AllPreCommand = $("pre#Command");
+let AllPre = $("pre");
+AllPre.addClass("line-numbers language-Bash command-line");
+AllPreCommand.attr({
+    "data-user":"AmirRoox",
+    "data-host":"Linux"
+});
+
 /* Version For Css Link (Catching) */
     // All Link
         // let css = document.querySelectorAll('link');
