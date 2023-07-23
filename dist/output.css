@@ -556,6 +556,24 @@ pre code {
   --tw-backdrop-sepia:  ;
 }
 
+.main_content {
+  /* Style For Parent Content Lessons */
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .main_content {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
 #LessonsMenu li{
   /* Style for List Lessons <li> */
   padding-top: 0.25rem;
@@ -597,31 +615,13 @@ pre code {
 
 @media (min-width: 768px) {
   .content_lessons {
-    grid-column: span 2 / span 2;
+    grid-column: span 3 / span 3;
     max-height: 80vh;
     overflow-y: auto;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-  }
-}
-
-.main_content {
-  /* Style For Parent Content Lessons */
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1rem;
-  overflow: hidden;
-  padding: 1rem;
-  text-align: center;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .main_content {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
@@ -632,7 +632,7 @@ pre code {
   display: grid;
   grid-template-rows: repeat(1, minmax(0, 1fr));
   gap: 0.75rem;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -693,10 +693,16 @@ pre code {
   color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
+#referenceQuiz_lessons div:last-child ol li {
+  /* Style List For Submit */
+  display: flex;
+  flex-direction: column;
+}
+
 #referenceQuiz_lessons div button {
   /* Style Button (Answer) */
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   display: block;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
@@ -705,6 +711,7 @@ pre code {
   padding-bottom: 0.25rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  text-align: center;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-duration: 500ms;
@@ -715,17 +722,6 @@ pre code {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  #referenceQuiz_lessons div button {
-    float: left;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: inline;
-  }
 }
 
 #referenceQuiz_lessons div ol hr {

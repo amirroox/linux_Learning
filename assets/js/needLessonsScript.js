@@ -79,16 +79,22 @@ $('#referenceQuiz_lessons button').on('click' , function () {
 /* Text Of Button (Default) */
 let btnQuiz = document.querySelectorAll("button[quiz]");
 btnQuiz.forEach(function (elem) {
-   if (elem.textContent === '' || elem.textContent === null) elem.append("مشاهده جواب")
+   if (elem.textContent === '' ||  elem.textContent === null) elem.append("مشاهده جواب")
 });
 
 /* Add Prism Language Bash Command line */
 let AllPreCommand = $("pre#Command");
 let AllPre = $("pre");
-AllPre.addClass("line-numbers language-Bash command-line");
+AllPre.addClass("language-Bash");
+AllPreCommand.addClass("command-line");
 AllPreCommand.attr({
     "data-user":"AmirRoox",
     "data-host":"Linux"
+});
+$("pre code").attr({
+    "data-prismjs-copy": "کپیم کن!",
+    "data-prismjs-copy-success": "کپی شدم!",
+    "data-prismjs-copy-error": "یچیزی شد، کپی نشد!"
 });
 
 /* Version For Css Link (Catching) */

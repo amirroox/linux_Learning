@@ -81,7 +81,8 @@
     color: white;
 }
 .CONTENT_COLOR { /* BackGround Content Lesson */
-    background-color: rgb(29 78 216 / 1);
+    /* rgb(29 78 216 / 1) */
+    background-color: rgb(0, 19, 70);
     color: white;
 }
 /* Root Color (BackGround And Text) */
