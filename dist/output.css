@@ -442,18 +442,6 @@ pre {
   direction: ltr;
 }
 
-pre code {
-  font-size: 1rem !important;
-  line-height: 1.5rem !important;
-}
-
-@media (min-width: 768px) {
-  pre code {
-    font-size: 0.875rem !important;
-    line-height: 1.25rem !important;
-  }
-}
-
 /* End PrismJs */
 
 *, ::before, ::after {

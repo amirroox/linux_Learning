@@ -20,7 +20,7 @@
                 <br><br>
                 <ul class="subMenuD space-y-3 text-base text-white">
                     <li class="hover:text-sky-400"><a href="<?= MAIN_SERVER.'Lessons/GettingStart' ?>">از اینجا شروع کنید</a></li>
-                    <li class="hover:text-sky-400"><a href="javascript:void(0)">خط فرمان</a></li>
+                    <li class="hover:text-sky-400"><a href="<?= MAIN_SERVER.'Lessons/CommandLine' ?>">خط فرمان</a></li>
                     <li class="hover:text-sky-400"><a href="javascript:void(0)">کار با متن ها</a></li>
                     <li class="hover:text-sky-400"><a href="javascript:void(0)">کار پیشرفته با متن ها</a></li>
                     <li class="hover:text-sky-400"><a href="javascript:void(0)">مدیریت کاربران</a></li>

@@ -36,7 +36,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             <code>
                 username@hostname:current_directory $
 
-                Amirroox@linux: /home/Desktop $
+                Amirroox@Linux: /home/Desktop $
             </code>
         </pre>
         <p>
@@ -46,7 +46,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             دستورات خودتونو وارد کنید!
             <br>
             <b>
-                توجه کنید که گفتم مسیری که توش هستید؛ مثلا اگه توی دستکتاپ یه پوشه بسازید به نام "فلان" و داخل این پوشه
+                توجه کنید که گفتم مسیری که توش هستید؛ مثلا اگه توی دسکتاپ یه پوشه بسازید به نام "فلان" و داخل این پوشه
                 هم یه پوشه دیگه به نام "فلان 2" بسازید، اگه برید داخل پوشه "فلان 2" مسیری که توش هستید برابر میشه با : "دسکتاپ / فلان / فلان 2"
             </b>
             <br>
@@ -59,21 +59,36 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             </b>
             <br>
             شما وقتی ترمینال روباز میکنید به طور خودکار پوسته Bash اجرا میشه (البته پوسته های مختلف دیگه ایی هم مثل zsh داریم، اما به طور پیشفرض اکثر توزیع های لینوکس از پوسته bash استفاده میکنن!)
+            <br>
+            حالا که فهمیدیم پوسته چیه بیاین اولین دستورمونو توی ترمینال بنویسیم :
+        </p>
+        <pre id="Command">
+            <code>
+                echo Hello World
+                hello World
+            </code>
+        </pre>
+        <p>
+            فعلا زیاد درگیر echo نشید ، ولی در همین حد بدونید که اگه جلوی دستور echo هر چیزی رو وارد کنیم ، برامون چاپش میکنه!
+            <br>
+            <b>
+                توجه کنید که به حروف بزرگ و کوچیکم حساسه! پس کلمه echo رو همینجوری که نوشتم بنویسید!
+            </b>
         </p>
 
         <!-- Slider -->
         <swiper-container>
             <swiper-slide>
-                <img src=""
-                     alt="linux History" loading="lazy">
+                <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/640fed807bc17_diagram_1.jpg"
+                     alt="Shell" loading="lazy">
             </swiper-slide>
             <swiper-slide>
-                <img src=""
-                     alt="Linus Torvalds" loading="lazy">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png"
+                     alt="Shell" loading="lazy">
             </swiper-slide>
             <swiper-slide>
-                <img src=""
-                     alt="Linus Torvalds" loading="lazy">
+                <img src="https://static.javatpoint.com/linux/images/linux-bash.png"
+                     alt="Bash" loading="lazy">
             </swiper-slide>
         </swiper-container>
     </div>
@@ -84,31 +99,26 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
         <div class="CONTENT_COLOR">
             <h2>منابع مرتبط : </h2>
             <p>
-                اگه علاقه داشتید تاریخچه رو به صورت کامل تر بخونید حتما لینک های زیر رو دنبال کنید!
+                اینجا توضیخات و منابع تکمیلی رو براتون گذاشتم و همینطور نصب پوسته جدید روی لینوکس!
             </p>
             <ol class="text-center">
-                <li><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تاریخچه لینوکس (ویکی پدیا)</a></li>
-                <li><a href="https://www.digikala.com/mag/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/">نگاهی به تاریخچه‌ی لینوکس (دیجی مگ)</a></li>
-                <li><a href="https://tehrantrain.com/learning/unix-linux-history/">تاریخچه کامل لینوکس</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/GNU">سیستم عامل گنو</a></li>
+                <li><a href="https://sokanacademy.com/plus/mehrdad.mohammadi/shell-%DA%86%DB%8C%D8%B3%D8%AA-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF-%D8%A2%D9%86-%D8%AF%D8%B1-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2-%D9%88-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-1003">شل چیست ؟</a></li>
+                <li><a href="https://parsclick.net/article/%D9%86%D8%B5%D8%A8-%D9%88-%D8%B3%D9%88%D8%A7%D8%B1-%DA%A9%D8%B1%D8%AF%D9%86-zsh-%D8%A8%D8%B1-%D8%B1%D9%88%DB%8C-shell">نصب پوسته zsh</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Shell_(computing)">Shell (WikiPediA)</a></li>
+                <li><a href="https://github.com/ohmyzsh/ohmyzsh">صفحه گیت هاب oh my zsh</a></li>
             </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                    سازنده هسته لینوکس چه نام داشت؟
+                    آیا ترمینال همان پوسته است ؟
                     <button quiz="1">مشاهده پاسخ</button>
                 </li>
                 <hr>
                 <li>
-                    هسته لینوکس در چه سالی تولید شد؟
+                    فقط یدونه پوسته داریم؟ آیا میشه پوسته جدیدی نصب کرد؟ پوسته پیشفرض لینوکس چیه؟
                     <button quiz="2">مشاهده پاسخ</button>
-                </li>
-                <hr>
-                <li>
-                    لینوکس به چه دلیل ساخته شد؟
-                    <button quiz="3">مشاهده پاسخ</button>
                 </li>
             </ol>
         </div>

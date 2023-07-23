@@ -15,9 +15,6 @@
     pre {
         direction: ltr;
     }
-    pre code {
-        @apply text-base md:text-sm !important;
-    }
     /* End PrismJs */
 }
 /* Custom Project */
