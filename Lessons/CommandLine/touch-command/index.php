@@ -26,77 +26,117 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <h1 class="md:hidden">توضیحات</h1>
     <div class="content_lessons CONTENT_COLOR">
-        <h1>توزیع فدورا</h1>
-        <h2>بررسی سریع : </h2>
+        <h1>دستور touch</h1>
+        <h2>ساخت فایل</h2>
         <p>
-            قبلا گفتیم توزیع رد هت از توزیع فدورا شکل گرفته. پروژه Fedora اواخر سال 2003 شروع به کار کرد و درست زمانی بود که Red Hat متوقف شده بود.
-            برای همین شرکت RedHat تصمیم گرفت محصول جدید خودش رو از توزیع Fedora بسازه(البته اینم بگم پشتیبان و حمایت کننده Fedora خود شرکت RedHat ؛ اصلا خود فدورا به معنای کلاه میشه که از ردهت اومده که اونم یعنی کلاه قرمز!)
-            <br>
-            اگه بخوام از اول اول تعریف کنم نسخه اولیه Fedora به عنوان یه پروژه دانشجویی شروع شد و هدفشم این بود که بتونه نرم افزار های RedHat رو روی یه سیستم عامل جدید دریافت کنه و آماده به توسعه باشه!
-            اما فرق اساسی فدورا با ردهت این بود که فدورا رایگان و ردهت تجاری بود برای همین داخل ردهت بخش همکاری در توسعه وجود نداشت!
-            اما همین بخش در فدورا باعث پیشرفت این توزیع شد، تا جایی که RedHat محصول اولیه خودش رو حذف کرد و نسخه جدید رو بر پایه فدورا ساخت!
-            <br>
-            این از تاریخچه ارتباط بین ردهت و فدورا ، ولی اگه بخوایم در مورد خود فدورا صحبت کنیم ، باید بگیم این توزیع دقیقا از هسته اصلی لینوکس (Kernel) ساخته شده و از بقیه توزیع ها استفاده نکرده.
-            همچنین از محیط های گرافیکی متفاوتی مثل GNOME ، KDE ، MATE و غیره پشتیبانی میکنه!
-            و مهم تر از همه اینکه برخلاف ردهت رایگان رایگانه!
-            و اینم بگم که این توزیع ، توزیع مورد علاقه پدر لینوکس دنیا ینی خود لینوس توروالدزه!
+            خب خب به یه دستور باحال رسیدیم! تا الان یاد گرفتیم توی مسیرهای مختلف وارد بشیم و فایل های درون مسیرها رو
+            ببینیم، اما امروز میخوایم یاد بگیریم چجوری یه فایل بسازیم! قبل از کار با دستور touch بیاید با دستور ls -l چک کنیم چه فایل هایی توی مسیرمونه :
         </p>
-        <h2>پکیج منیجر :</h2>
+        <pre>
+            <code>
+                pwd
+                home/amirroox/Desktop/NewFolder
+                ls -l
+                drwxrwxr-x 2 amirroox amirroox 4096 Jul 24 19:41  big
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  maa.txt
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  may.txt
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  my(6th).txt
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  my(7th).txt
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  my.jpg
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  my(copy).jpg
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  my.txt
+                -rw-rw-r-- 1 amirroox amirroox 9077 Jul 24 19:05  myy.txt
+                drwxrwxr-x 2 amirroox amirroox 4096 Jul 25 15:03  new
+            </code>
+        </pre>
         <p>
-            فدورا هم مثل رد هت از پکیج منیجیر RPM استفاده میکنه.(پکیج منیجر RPM برای خانواده فدوراست، یادتون باشه!)
-        </p>
-        <h2>استفاده :</h2>
-        <p>
-            استفاده از فدورا هم مثل بقیه توزیع ها آسونه و دانش فنی خاصی برای نصب نیاز نداره. همچنین یه نسخه Live داره که میتونید
-            روی فلش یا DVD رایت کنید و ازش به صورت زنده استفاده کنید.(حالت زنده یعنی با ریبوت کردن اطلاعات شما از بین میره و فقط تا زمانی اطلاعات رو دارید که فلش یا سی دی شما در حال کاره!)
+            تو قسمت بالا اگه توجه کنید یه تاریخ میبینید که تاریخ ایجاد یا ویرایش اون فایل رو نشون میده! مثلا برای فایل maa.txt تاریخ ایجاد(آخرین ویرایش) برابر با 24 Jul و ساعت 19 و 5 دقیقه است.
+            حالا چرا اینو گفتم؟ چون دستور امروز ما دوتا کار میکنه،
+            <b>
+                اول اینکه میتونید باهاش یه فایل خالی بسازید و دومین کار اینه که میتونید تاریخ فایل رو عوض کنید.
+            </b>
             <br>
-            کلا اگه میخواید یه چیزی مشابه با RedHat استفاده کنید ، ولی بخاطرش پول ندید این توزیع مناسب شماست :)
+            <b>
+                توجه کنید که به این تاریخ میگن timestamp (مهر زمانی) ، پس از الان اسم درستشو میگیم تا اینکه بگیم تاریخ!
+            </b>
+            <br>
+            خب بریم که با این دستور کار کنیم ، تو دستورات زیر چنتا فایل متفاوت میسازیم :
         </p>
+        <pre>
+            <code>
+                pwd
+                home/amirroox/Desktop
+                ls -l
+                drwxrwxr-x 4 amirroox amirroox 4096 Jul 25 15:03 NewFolder
 
-        <!-- Slider -->
-        <swiper-container>
-            <swiper-slide>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fedora_Workstation_38_Desktop_English.png/1200px-Fedora_Workstation_38_Desktop_English.png"
-                     alt="fedora" loading="lazy">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Fedora_Linux_35_%28Workstation%29.png"
-                     alt="fedora" loading="lazy">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="https://spins.fedoraproject.org/static/images/screenshots/screenshot-kde.jpg"
-                     alt="fedora" loading="lazy">
-            </swiper-slide>
-        </swiper-container>
-        <!-- Slider -->
+                # در زیر یه فایل خالی ایجاد کردیم
+                touch newFile
+                ls -l
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:14 newFile
+                drwxrwxr-x 4 amirroox amirroox 4096 Jul 25 15:03 NewFolder
 
+                # در زیر چنتا فایل رو همزمان میسازیم
+                touch ax.jpg new.txt my.pdf
+                ls -l
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 ax.jpg
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 my.pdf
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:14 newFile
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 new.txt
+                drwxrwxr-x 4 amirroox amirroox 4096 Jul 25 15:03 NewFolder
+
+            </code>
+        </pre>
+        <p>
+            خب اگر توجه کنید سمت چپ تاریخ، برای فایل هایی که ایحاد کردیم عدد 0 نوشته شده که حجم فایل رو مشخص میکنه
+            پس نتیجه میگیریم که فایل های ما خالی خالی هستن!
+            دومین کاری هم که دستور touch انجام میده ، اینه که timestamp فایل هارو عوض میکنه(بدون اینکه به محتواشون دست بزنه!) مثال
+            زیر رو یه نگاه بندازید :
+        </p>
+        <pre>
+            <code>
+                ls -l
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 ax.jpg
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 my.pdf
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:14 newFile
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 new.txt
+                drwxrwxr-x 4 amirroox amirroox 4096 Jul 25 15:03 NewFolder
+
+                # تاریخ فایل رو دقت کنید
+                # دستور تاچ رو 4 دقیقه بعد دوباره زدیم
+                touch new.txt
+                ls -l
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 ax.jpg
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:16 my.pdf
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:14 newFile
+                -rw-rw-r-- 1 amirroox amirroox    0 Jul 25 15:20 new.txt
+                drwxrwxr-x 4 amirroox amirroox 4096 Jul 25 15:03 NewFolder
+                # توجه کنید که محتویات فایل عوض نمیشن و فقط تاریخ بروز میشه
+            </code>
+        </pre>
     </div>
 
     <!-- Start Reference & Quiz -->
-    <h1 class="md:hidden">منابع و آزمون</h1>
+    <h1 class="md:hidden">تمرین و آزمون</h1>
     <div id="referenceQuiz_lessons" nameSeason="<?= $name_file_season ?>" nameLesson="<?= $name_file ?>">
         <div class="CONTENT_COLOR">
-            <h2>منابع مرتبط : </h2>
+            <h2>تمرینات مرتبط : </h2>
             <p>
-                میتونید از لینک های زیر برای اطلاعات بیشتر استفاده کنید :
+                خب تمرینات امروز خیلی ساده است ولی برای اینکه دستتون گرم بشه، حتما با دستورات قبلی که یاد گرفتید ترکیبشون کنید
+                و توی مسیرهای مختلف فایل بسازید.
             </p>
-            <ol class="text-center">
-                <li><a href="https://fedoraproject.org/">سایت رسمی فدورا</a></li>
-                <li><a href="https://asamserver.com/blog/what-is-fedora/">لینوکس فدورا چیست؟ چه ویژگی هایی fedora را متفاوت می کند؟</a></li>
-                <li><a href="https://fa.wikipedia.org/wiki/%D9%81%D8%AF%D9%88%D8%B1%D8%A7_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">فدورا لینوکس (ویکی پدیا)</a></li>
+            <br>
+            <ol>
+                <li>چنتا فایل با پسوند های مختلف بسازید (مثلا pdf یا txt)</li>
+                <br>
+                <li>فایل هایی که از قبل ایجاد کردید رو یبار دیگه بسازید و timestamp رو چک کنید!</li>
             </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                    چه شرکتی از فدورا حمایت میکند؟
+                    آیا میشه چنتا فایل رو همزمان هم ساخت ؟
                     <button quiz="1"></button>
-                </li>
-                <hr>
-                <li>
-                    پکیج منیجر خانواده فدروا چیست ؟
-                    <button quiz="2"></button>
                 </li>
             </ol>
         </div>
@@ -105,7 +145,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <!-- Start Next Lesson -->
     <?php
-    Next_Lesson('LinuxMint');
+    Next_Lesson('file-command', 'دستور file');
     ?>
     <!-- End Next Lesson -->
 

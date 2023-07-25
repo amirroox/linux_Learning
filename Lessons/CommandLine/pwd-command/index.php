@@ -148,7 +148,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <!-- Start Next Lesson -->
     <?php
-    Next_Lesson('OpenSUSE');
+    Next_Lesson('cd-command','دستور cd');
     ?>
     <!-- End Next Lesson -->
 

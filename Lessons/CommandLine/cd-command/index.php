@@ -49,7 +49,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             پس با دستور cd وارد اون پوشه شدیم و با دستور pwd چک کردیم که توی مسیر هستیم یا نه!
             <br>
             <b>
-                بیاین یکم علمی تر برسی کنیم! برای وارد شدن به یه مسیر توی لینوکس دوتا روش دارید که این زیر مشخصه :
+                بیاین یکم علمی تر بررسی کنیم! برای وارد شدن به یه مسیر توی لینوکس دوتا روش دارید که این زیر مشخصه :
             </b>
         </p>
         <ol class="md:mr-10 list-decimal">
@@ -63,11 +63,12 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
                 یعنی بنویسیم cd /home/amirroox/Download با این دستور هم وارد پوشه Download میشیم.
             </li>
         </ol>
+        <br>
         <b>
             توجه کنید که اگه توی مسیر etc/hosts باشید، یا باید برید عقب و آدرس پوشه موردنظرتون رو پیدا کنید و بعد از روش یک استفاده کنید یا اینکه فقط از روش دو به صورت ساده استفاده کنید.
         </b>
         <p>
-            خب احتمالا خودتونم بگید که کلیک کردن خیلی ساده تر بود تا اینکه کل مسیرو خودمون وارد کنیم! لینوکس برای این سختی هم یه فکری کرده
+            خب احتمالا خودتونم بگید که کلیک کردن خیلی ساده‌تر بود تا اینکه کل مسیرو خودمون وارد کنیم! لینوکس برای این سختی هم یه فکری کرده
             و چنتا علامت گذاشته برای میانبر، که این زیر میبنید:
         </p>
         <ol class="md:mr-10 list-decimal">
@@ -132,7 +133,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
     </div>
 
     <!-- Start Reference & Quiz -->
-    <h1 class="md:hidden">منابع و آزمون</h1>
+    <h1 class="md:hidden">تمرین و آزمون</h1>
     <div id="referenceQuiz_lessons" nameSeason="<?= $name_file_season ?>" nameLesson="<?= $name_file ?>">
         <div class="CONTENT_COLOR">
             <h2>تمرینات مرتبط : </h2>
@@ -163,7 +164,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <!-- Start Next Lesson -->
     <?php
-        Next_Lesson('Debian');
+        Next_Lesson('ls-command','دستور ls');
     ?>
     <!-- End Next Lesson -->
 </main>

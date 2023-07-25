@@ -26,77 +26,78 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <h1 class="md:hidden">توضیحات</h1>
     <div class="content_lessons CONTENT_COLOR">
-        <h1>توزیع جنتو</h1>
-        <h2>بررسی سریع : </h2>
+        <h1>دستور file</h1>
+        <h2>بررسی نوع فایل</h2>
         <p>
-            جنتو یکی دیگه از توزیع های قدرتمند و قابل شخصی سازی در دنیای لینوکس است. این توزیع به طور ویژه کاربران حرفه ایی تر رو هدف قرار داده، پس اگه
-            عاشق چالشید برید سمتش!
+            یه دستور خیلی خوب و جذاب داریم به نام file که کارش اینه بهتون فرمت و نوع فایل رو بگه! مثلا اگه یه فایل pdf داشته باشید
+            با این دستور متوجه میشید که این فایل واقعا pdf هست یا نه! توی درس قبلی با دستور touch آشنا شدید و اگه واقعا تمرین کرده باشید
+            میدونید که اگه یه فایل text.jpg بسازید ، شاید فرمتش رو رعایت کرده باشید اما واقعا یه عکس تولید نکردید!
             <br>
-            اما جدا از سختی های این توزیع میشه گفت ، جنتو کنترل بالایی داره! حالا کنترل یعنی چی؟ یعنی شما رو جزئی ترین کارای سیستم عاملتون دسترسی مستقیم دارید.
-            یکی دیگه از فایده های جنتو بهینه‌سازی و سرعت زیادشه(شاید بگید همه مگه از هسته لینوکس ساخته نشدن؟ باید بگم چرا ساخته شدن ، اما شخصی سازی ها و ابزارهای داخلی هر توزیع شبیه به هم نیست!)
-            <br>
-            و مورد آخر هم اینکه شاید این توزیع سخت باشه ، ولی بعد از یادگیری دیگه ازش دست برنمیدارید! (اگه یچیز آماده در اختیارتون باشه سریع ارزشش کم میشه ، اما وقتی ریز به ریز جزئیات رو خودتون درک کنید ارزش کارتون بالاتر میره!)
+            برای همین دستور file بهتون کمک میکنه که فرمت واقعی فایل هارو شناسایی کنید، بزارید این زیر یه مثال بزنم :
         </p>
-        <h2>پکیج منیجر :</h2>
+        <pre id="Command">
+            <code>
+                touch text.txt
+                file text.txt
+                text.txt: empty
+                # میتونید ببینید که وقتی یه فایل خالی ایجاد میکنیم
+                # نوع فایل هم خالی حساب میشه
+                touch jojo.jpg
+                file jojo.jpg
+                jojo.jpg: empty
+            </code>
+        </pre>
         <p>
-            بر خلاف خانواده دبیان و فدورا ، جنتو از پکیج منیجر مخصوص خودش به نام Portage استفاده میکنه.
+            حالا ما رفتیم چنتا فایل واقعی پیدا کردیم! مثلا 2 عکس دانلود کردیم و یدونه pdf ، حالا خروجی دستور زیر رو ببینید :
         </p>
+        <pre>
+            <code>
+                ls
+                hand.avif
+                hello-world.pdf
+                v.jpg
 
-        <!-- Slider -->
-        <swiper-container>
-            <swiper-slide>
-                <img src="https://www.kompulsa.com/wp-content/uploads/2018/05/Gentoo-Package-Manager-Installing.png"
-                     alt="portage package manager" loading="lazy">
-            </swiper-slide>
-        </swiper-container>
-        <!-- Slider -->
+                file v.jpg
+                v.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI),
+                density 72x72, segment length 16, Exif Standard:
+                [TIFF image data, little-endian, direntries=2,
+                copyright=Rawpixel Ltd.],
+                progressive, precision 8, 800x533, components 3
 
-        <h2>استفاده :</h2>
-        <p>
-            استفاده از جنتو مثل توزیع های قبلی آسون نیست! و کلا برای کاربران مبتدی مناسب نیست، حتی برای نصب هم باید از دستورات استفاده کنید
-            و از محیط گرافیکی خبری نیست! ولی در هر صورت اگه از چالش خوشتون میاد و یادگیری براتون لذت بخشه میتونید این توزیع رو استفاده کنید و لذت ببرید.
-        </p>
+                file hello-world.pdf
+                hello-world.pdf: PDF document, version 1.4, 1 pages
 
-        <!-- Slider -->
-        <swiper-container>
-            <swiper-slide>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Gentoo_Live_GUI_USB_running_KDE.png"
-                     alt="gentoo" loading="lazy">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="https://blog.paranoidpenguin.net/wp-content/uploads/2017/03/GentooLinux-KDE5-Plasma.png"
-                     alt="gentoo" loading="lazy">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Gentoo-Linux.png"
-                     alt="gentoo" loading="lazy">
-            </swiper-slide>
-        </swiper-container>
-        <!-- Slider -->
-
+                file hand.avif
+                hand.avif: ISO Media, AVIF Image
+            </code>
+        </pre>
+        <b>
+            میبینید که دستور file علاوه بر نوع فرمت فایل، یه اطلاعات دیگه هم بهتون میده که بدردتون میخوره!
+            مثلا برای pdf بهتون میگخ چند صفحه است و برای jpg مشخصات کامل عکس و اندازه رو میده(که واقعا خیلی باحاله!)
+        </b>
     </div>
 
     <!-- Start Reference & Quiz -->
-    <h1 class="md:hidden">منابع و آزمون</h1>
+    <h1 class="md:hidden">تمرین و آزمون</h1>
     <div id="referenceQuiz_lessons" nameSeason="<?= $name_file_season ?>" nameLesson="<?= $name_file ?>">
         <div class="CONTENT_COLOR">
-            <h2>منابع مرتبط : </h2>
+            <h2>تمرینات مرتبط : </h2>
             <p>
-                بازم مثل همیشه از زیر منابع مرتبط رو میتونید ببینید :
+                فقط یه تمرین دارید که برای خودتونم میتونه جذاب باشه! برید چنتا چیز مختلف دانلود کنید
+                با فرمت های مختلفی مثل jpg, png, pdf, txt, iso و هر فرمتی که دلتون خواست و با دستور file
+                ببینید چه خروجی به شما میده!
             </p>
-            <ol class="text-center">
-                <li><a href="https://www.gentoo.org/">سایت رسمی جنتو</a></li>
-                <li><a href="https://fa.wikipedia.org/wiki/%D8%AC%D9%86%D8%AA%D9%88_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">جنتو (ویکی پدیا)</a></li>
-                <li><a href="https://faceit.ir/news/6727/5-Reasons-why-use-Gentoo-Linux/">پنج دلیل برای استفاده از جنتو لینوکس</a></li>
-                <li><a href="https://parsdev.com/blog/linux-gentoo">Gentoo Linux چیست؟</a></li>
-            </ol>
         </div>
         <div class="CONTENT_COLOR">
             <h2>آزمون :</h2>
             <ol>
                 <li>
-                  جنتو از چه پکیج منیجری استفاده میکنه؟
+                  دستور file میتونه چنتا فایل رو هم همزمان قبول کنه؟
                     <button quiz="1"></button>
+                </li>
+                <li>
+                    دستور file فقط فرمت رو نمایش میده؟
+                    <button quiz="2"></button>
                 </li>
             </ol>
         </div>
@@ -105,7 +106,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <!-- Start Next Lesson -->
     <?php
-    Next_Lesson('ArchLinux');
+    Next_Lesson('cat-command', 'دستور cat');
     ?>
     <!-- End Next Lesson -->
 

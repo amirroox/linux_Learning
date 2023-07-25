@@ -54,3 +54,11 @@ li.openSubMenu ul.subMenuD{
 swiper-container::part(bullet-active) {
     background-color: red ;
 }
+
+/* Prism Custom */
+.token.class-name { /* Change Color */
+    color: rgb(239 68 68 / 1);
+}
+.token.function, .token.class-name, .token.variable{
+    font-weight: bolder;
+}
