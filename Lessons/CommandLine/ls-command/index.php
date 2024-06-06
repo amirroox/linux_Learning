@@ -157,7 +157,7 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
                 </li>
                 <hr>
                 <li>
-                    پرچم l چه کاری انجام میده ؟
+                    پرچم l (اِل) چه کاری انجام میده ؟
                     <button quiz="2"></button>
                 </li>
                 <hr>

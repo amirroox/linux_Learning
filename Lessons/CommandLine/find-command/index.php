@@ -69,7 +69,6 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
             </a>
             استفاده کنید)
         </p>
-
         <!-- Slider -->
         <swiper-container>
             <swiper-slide>

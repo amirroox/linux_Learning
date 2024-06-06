@@ -26,8 +26,8 @@ $name_file_season = basename(dirname( __DIR__)); /* Name This Season */
 
     <h1 class="md:hidden">توضیحات</h1>
     <div class="content_lessons CONTENT_COLOR">
-        <h1>توزیع ردهت</h1>
-        <h2>بررسی سریع : </h2>
+        <h1>دستور less</h1>
+        <h2>خواندن فایل ها به صورت کوتاه </h2>
         <p>
             اول بگیم که اسم کامل این توزیع Red Hat Enterprise Linux است که به مختصر بهش RHEL گفته میشه.قبل از بررسی
             پیشرفته باید بگم که این توزیع یکی از محدود توزیع هایه که از قوانین و لایسنس GNU پیروی نمیکنه(بخوام خیلی آسون بهتون بگم ، یعنی خیلی آزاد و رایگان نیست!)،
