@@ -24,7 +24,7 @@
         @apply p-4 text-white text-center grid grid-cols-1 md:grid-cols-6 gap-4 overflow-hidden;
     }
     #LessonsMenu li{ /* Style for List Lessons <li> */
-        @apply py-1 hover:bg-red-500 hover:text-white duration-500;
+        @apply py-1 hover:bg-purple-700 hover:text-white duration-500;
     }
     .content_lessons { /* Style for Content Lessons */
         @apply md:col-span-3 md:max-h-[80vh] space-y-3 text-justify rounded-2xl
@@ -41,15 +41,15 @@
                 md:max-h-[39vh] py-3 px-5 space-y-3;
     }
     #referenceQuiz_lessons div a { /* Style Child */
-        @apply hover:text-blue-800 bg-red-500 my-[1px] inline-block py-0.5 px-2
-            hover:bg-white hover:text-blue-400 duration-500;
+        @apply hover:text-blue-800 bg-purple-700 my-[1px] inline-block py-0.5 px-2
+            hover:bg-white hover:text-purple-700 duration-500;
     }
     #referenceQuiz_lessons div:last-child ol li { /* Style List For Submit */
         @apply flex flex-col;
     }
     #referenceQuiz_lessons div button { /* Style Button (Answer) */
-        @apply py-1 px-3 bg-red-500 text-white my-2 rounded-full block
-             text-center hover:bg-white hover:text-blue-400 duration-500;
+        @apply py-1 px-3 bg-purple-700 text-white my-2 rounded-full block
+             text-center hover:bg-white hover:text-purple-700 duration-500;
     }
     #referenceQuiz_lessons div ol hr {
         @apply my-3 ;

@@ -2,6 +2,9 @@
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   },
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
   "dependencies": {
     "sweetalert2": "^11.7.12"
   }

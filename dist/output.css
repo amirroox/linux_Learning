@@ -571,7 +571,7 @@ pre {
 
 #LessonsMenu li:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -665,7 +665,7 @@ pre {
   margin-bottom: 1px;
   display: inline-block;
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
   padding-left: 0.5rem;
@@ -678,7 +678,7 @@ pre {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   color: rgb(30 64 175 / var(--tw-text-opacity));
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(126 34 206 / var(--tw-text-opacity));
 }
 
 #referenceQuiz_lessons div:last-child ol li {
@@ -694,7 +694,7 @@ pre {
   display: block;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.75rem;
@@ -709,7 +709,7 @@ pre {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(126 34 206 / var(--tw-text-opacity));
 }
 
 #referenceQuiz_lessons div ol hr {

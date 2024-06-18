@@ -49,10 +49,10 @@ swiper-container::part(bullet-active) {
 }
 
 /**/
-ul {
+.main_content ul {
     list-style-type: circle;
     margin: 0 2rem;
 }
-li::marker {
+.main_content li::marker {
     color: rgb(239 68 68 / 1);
 }
